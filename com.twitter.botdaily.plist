@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.twitter.botdaily</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/Library/Frameworks/Python.framework/Versions/3.10/bin/pipenv</string>
+        <string>run</string>
+        <string>python</string>
+        <string>BotDaily.py</string>
+    </array>
+    <key>WorkingDirectory</key>
+    <string>/Users/Desktop/Bot</string>    
+    <key>StartInterval</key>
+    <integer>14400</integer>
+    <key>StandardOutPath</key>
+    <string>/Users/Desktop/Bot/out.log</string>
+    <key>StandardErrorPath</key>
+    <string>/Users/Desktop/Bot/error.log</string>    
+</dict>
+</plist>
