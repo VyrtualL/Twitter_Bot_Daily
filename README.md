@@ -27,3 +27,5 @@ Fifth : Replace the ligne 35 by the path where are your images (use pwd)
 
         fileName = "/Users/Desktop/Bot/" + a
         Exemples : fileName = "/Windows/username/Desktop/images/" + a
+
+Sixth : It's finish !
